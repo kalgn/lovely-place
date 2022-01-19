@@ -41,7 +41,10 @@ export default {
       },
     },
   },
-	server: {
-		host: '0.0.0.0'
-	}
+  generate: {
+    dir: 'public',
+  },
+  server: {
+    host: '0.0.0.0',
+  },
 }
