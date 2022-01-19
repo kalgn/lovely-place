@@ -1,5 +1,7 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
+  target: 'static',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'lovely-place',
@@ -25,10 +27,10 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxt/postcss8'],
+  buildModules: ['@nuxt/image', '@nuxt/postcss8'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxt/image'],
+  modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
